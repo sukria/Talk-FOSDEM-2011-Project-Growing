@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>FOSDEM 2011 - Code, Release, Market - Alexis Sukrieh</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.css" />
+<link href="<% request.base %>/css/prettify.css" type="text/css" rel="stylesheet" />
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="<% request.base %>/javascripts/jquery.js"></script>
+<script type="text/javascript" src="<% request.base %>/javascripts/prettify.js"></script>
+<script type="text/javascript" src="<% request.base %>/javascripts/broadway.js"></script>
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+</head>
+
+<body onload="prettyPrint();">
+    <div id="wrapper">
+        <div id="content_wrapper">
+        <% content %>
+        </div>
+    </div>
+    <div id="footer">
+        <span><% settings.broadway.event %></span>
+        <span><% settings.broadway.date %></span>
+        <span class="title"><% settings.broadway.title %></span>
+        <span class="author"><% settings.broadway.author %></span>
+        <span id="slide_number" style="position: absolute; right: 2px;"></span>
+    </div>
+
+<% if is_multi_touch %>
+<div id="remote">
+<div style="position: absolute; width: 600px; left: 0; bottom: 0; font-size: 60px; background-color: #eee;">
+<a href="#" style="color: #000; " onclick="broadway_prev();broadway_refresh(); return(false);">PREV</a>
+&nbsp;
+<a href="#" style="color: #000;" onclick="broadway_next(); broadway_refresh();return(false);">NEXT</a>
+</div>
+</div>
+<% end %>
+
+</body>
+</html>

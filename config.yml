@@ -1,0 +1,38 @@
+# This is the main configuration file of your Dancer app
+# env-related settings should go to environments/$env.yml
+# all the settings in this file will be loaded at Dancer's startup.
+
+# Your application's name
+appname: "FOSDEM::2011::ProjectGrowing"
+
+# The default layout to use for your application (located in
+# views/layouts/main.tt)
+layout: "main"
+
+# when the charset is set to UTF-8 Dancer will handle for you
+# all the magic of encoding and decoding. You should not care
+# about unicode within your app when this setting is set (recommended).
+charset: "UTF-8"
+
+session: "YAML"
+
+# template engine
+# simple: default and very basic template engine
+# template_toolkit: TT
+
+broadway:
+  title: "Code, Release, Market"
+  date: "Feb. 6, 2011"
+  event: "FOSDEM 2011"
+  author: "Alexis Sukrieh"
+  slides: 56
+  refresh_rate: 600
+  remote: 0
+
+template: "template_toolkit"
+engines:
+  template_toolkit:
+    COMPILE_EXT: ".ttc" 
+    COMPILE_DIR: "/tmp/ttcompile"
+
+
