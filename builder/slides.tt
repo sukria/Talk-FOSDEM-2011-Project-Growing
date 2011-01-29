@@ -1,11 +1,170 @@
-<center>
-<h1>Code, Release, Market</h1>
-
-<h3>The art of growing a Perl project</h3>
-
-
-</center>
+<h1>Code<h1>
+<h1>Release</h1>
+<h1>Market</h1>
 
 ===
 
-First slide
+
+<img align="right" hspace="5" vspace="5" id="bonzai" style="display: none;" src="/images/bonzai.png">
+<p id="title" style="display: none;">
+<em>The art of growing a Perl project</em>
+</p>
+
+<script>
+$('#bonzai').fadeIn('slow', function() {
+	$('#title').fadeIn('slow');
+});
+</script>
+
+===
+
+<h2>Who</h2>
+
+<p>Alexis Sukrieh</p>
+
+<p><a href="http://perldancer.org">Dancer</a>'s Lead developper</p>
+
+<p>Software architect at <a href="http://weborama.com/">Weborama</a></p>
+
+<p><a href="http://mongueurs.net">Mongueur</a> de Perl</p>
+
+<p><a href="http://twitter.com/sukria">http://twitter.com/sukria</a></p>
+
+===
+
+<h2>Main tracks</h2>
+
+<ol>
+
+<li>First, some clarifications
+
+<li>Programming vs Software 
+
+<li>Community building
+
+<li>Marketing actions
+
+<li>Dancer, A real-life example
+
+</ol>
+
+===
+
+<h1>Clarifications</h1>
+
+<p>before we start...</p>
+
+===
+
+<h2>For whom...</h2>
+
+<ul>
+	<li>This talk is not for personal pet-projects 
+
+	<li>It's not for monster projects either
+
+	<li>This talk is for open-source projects
+</ul>
+
+===
+
+<p>
+Well, <b>Perl</b> open-source project, more precisely ;)
+</p>
+
+===
+
+<p>Running a successful open-source project will teach  you <b>a lot</b></p>
+
+===
+
+<h2>Positive side-effects</h2>
+
+<ul>
+	<li>Contributions is goldmine
+
+	<li>New eyes on your project 
+
+	<li>Feedback means better code, in the end
+
+	<li>Fresh ideas and constant motivation
+
+</ul>
+
+===
+
+<h2>The best reward</h2>
+
+<p>More and more people will use your software</p>
+
+===
+
+<em>Software</em>, we said.
+
+===
+
+<h1>Programming<br>
+
+vs<br>
+
+Software </h1>
+
+===
+
+<h2>Programming is Easy</h2>
+
+<ul>
+	<li>It's just about knowing well your language
+	<li>practice, learn and try
+	<li>eventually, anyone can master a programming language
+	<li>because it's one-dimensional
+</ul>
+
+===
+
+<h2>Software Development<br>
+is Hard</h2>
+
+<ul>
+	<li>it's not just about lines of code
+	<li>Bugs, Users, Deployment, Backward-compat, ...
+	<li>it's multi-dimensional, you're not alone anymore
+</ul>
+
+===
+
+<p>
+It's more difficult to maintain a small project in a good shape over time than
+building a big private application. 
+</p>
+
+===
+
+<h1>Difficult, but not impossible</h1>
+
+===
+
+<h2>Most important rules</h2>
+
+<ol>
+
+<li>Do not, ever, expect for perfection 
+<li>Focus on what your project does 
+<li>Small steps rather than big jumps
+<li>Keep it as simple as possible
+
+</ol>
+
+===
+
+<h1>Community Building</h1>
+
+===
+
+<h1>Marketing actions</h1>
+
+===
+
+<h1>Dancer, a real-life example</h1>
+
+===

@@ -8,7 +8,7 @@ html,body {
 }
 
 a {
-	color: #bbf;
+	color: #449;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     font-size: 48px;
     background-color: #fff;
     background: #fff url("/images/bonzai-bg.jpg") no-repeat top right;
-    color: #4d4d4d;
+    color: #363636;
 }
 
 img {
@@ -56,10 +56,6 @@ pre {
 
 pre.big { font-size: 48px; }
 
-em {
-    color: #ccf;
-}
-
 pre, ul { text-align: left; }
 
 #footer {
@@ -92,7 +88,7 @@ font-weight: bold;
 }
 
 #slide{
-    padding:20px; 
+    padding:0px; 
     display:table-cell; 
     vertical-align:middle;
     text-align:center; 
@@ -116,7 +112,6 @@ font-weight: bold;
 
 #remote {
     position: absolute;
-    color: #445;
     text-align: center;
     font-size: 20px;
     bottom: 60px;
