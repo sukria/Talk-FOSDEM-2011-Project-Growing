@@ -1,3 +1,4 @@
 views/slide-*.tt
+sessions/
 session/*yml
 logs/*log
