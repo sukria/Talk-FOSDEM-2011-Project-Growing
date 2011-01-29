@@ -5,16 +5,11 @@
 ===
 
 
-<img align="right" hspace="5" vspace="5" id="bonzai" style="display: none;" src="/images/bonzai.png">
-<p id="title" style="display: none;">
+<img src="/images/bonzai.png">
+
+<p id="title">
 <em>The art of growing a Perl project</em>
 </p>
-
-<script>
-$('#bonzai').fadeIn('slow', function() {
-	$('#title').fadeIn('slow');
-});
-</script>
 
 ===
 
@@ -36,70 +31,101 @@ $('#bonzai').fadeIn('slow', function() {
 
 <ol>
 
-<li>First, some clarifications
+<li>Programming vs Software  </li>
 
-<li>Programming vs Software 
+</ol>
 
-<li>Community building
+===
+<h2>Main tracks</h2>
 
-<li>Marketing actions
+<ol>
 
-<li>Dancer, A real-life example
+<li>Programming vs Software  </li>
+
+<li>Community building </li>
+
+</ol>
+
+===
+<h2>Main tracks</h2>
+
+<ol>
+
+<li>Programming vs Software </li>
+
+<li>Community building</li>
+
+</ol>
+
+===
+<h2>Main tracks</h2>
+
+<ol>
+
+<li>Programming vs Software </li>
+
+<li>Community building </li>
+
+<li>About the Perl ecosystem </li>
 
 </ol>
 
 ===
 
-<h1>Clarifications</h1>
+<h2>Main tracks</h2>
 
-<p>before we start...</p>
+<ol>
 
-===
+<li>Programming vs Software  </li>
 
-<h2>For whom...</h2>
+<li>Community building </li>
 
-<ul>
-	<li>This talk is not for personal pet-projects 
+<li>About the Perl ecosystem </li>
 
-	<li>It's not for monster projects either
+<li>Dancer, A real-life example </li>
 
-	<li>This talk is for open-source projects
-</ul>
+</ol>
 
 ===
 
-<p>
-Well, <b>Perl</b> open-source project, more precisely ;)
-</p>
-
-===
+<h2>Motivations</h2>
 
 <p>Running a successful open-source project will teach  you <b>a lot</b></p>
 
 ===
 
-<h2>Positive side-effects</h2>
+	<p>New eyes on your project :<br/>
+	constant code-review</p>
 
-<ul>
-	<li>Contributions is goldmine
+===
 
-	<li>New eyes on your project 
+	<p>Feedback means better code</p>
 
-	<li>Feedback means better code, in the end
+===
 
-	<li>Fresh ideas and constant motivation
+	<p>Fresh ideas and constant motivation</p>
 
-</ul>
+===
+
+	<p>Contributions<br/>
+	a goldmine of positive energy</p>
 
 ===
 
 <h2>The best reward</h2>
 
-<p>More and more people will use your software</p>
+<p>People will use your software</p>
 
 ===
 
-<em>Software</em>, we said.
+<h2>Even better</h2>
+
+<p>Some of them will help you<br>
+make it better</p>
+
+===
+
+<h2>Wait, <em>Software</em>, we said.</h2>
 
 ===
 
@@ -111,49 +137,145 @@ Software </h1>
 
 ===
 
-<h2>Programming is Easy</h2>
+<h2>Programming</h2>
 
-<ul>
-	<li>It's just about knowing well your language
-	<li>practice, learn and try
-	<li>eventually, anyone can master a programming language
-	<li>because it's one-dimensional
-</ul>
+<img src="/images/rubixcube.jpg" />
 
 ===
 
-<h2>Software Development<br>
-is Hard</h2>
+<h2>Programming is Easy</h2>
 
-<ul>
-	<li>it's not just about lines of code
-	<li>Bugs, Users, Deployment, Backward-compat, ...
-	<li>it's multi-dimensional, you're not alone anymore
-</ul>
+===
+
+	<p>It's just about knowing<br />
+	well your language</p>
+
+===
+
+	<p>A matter of time and motivation</p>
+
+===
+
+	<p>practice, learn and try</p>
+
+===
+	<p>eventually, anyone can <br>
+	master a programming language</p>
+
+===
+	<em>because it's <b>one-dimensional</b></em>
+
+===
+
+<h1>Software Development</h1>
+
+
+===
+
+<img src="/images/goban.jpg">
+
+<h2>It's hard</h2>
+
+===
+
+<p>it's not just about lines of code</p>
+
+===
+
+<img src="/images/bug.jpg" />
+
+<h2>Bugs</h2>
+
+===
+
+<img src="/images/users.jpg" align="left" vspace="5"/>
+
+<h2 class="middle">Users</h2>
+
+===
+
+<img src="/images/contributors.jpg" align="center" vspace="5" />
+
+<h2>Contributors</h2>
+
+
+===
+
+<img src="/images/backward.jpg" />
+
+<h2>Backward compatibilty</h2>
+
+===
+
+<img src="/images/troll.jpg">
+
+<h2>Sometimes, even<br>
+some trolls ;)</h2>
 
 ===
 
 <p>
-It's more difficult to maintain a small project in a good shape over time than
-building a big private application. 
+And many other things<br />
+you don't controll
 </p>
 
 ===
 
-<h1>Difficult, but not impossible</h1>
+<p>Well, it's hard because<br />
+it's <em>multi-dimensional</em></p>
 
 ===
 
-<h2>Most important rules</h2>
+<p>You're not alone anymore</p>
 
-<ol>
+===
 
-<li>Do not, ever, expect for perfection 
-<li>Focus on what your project does 
-<li>Small steps rather than big jumps
-<li>Keep it as simple as possible
+<p>
+Handling this flow and continuing 
+<br>
+to develop is difficult
+</p>
 
-</ol>
+===
+
+<h2>Advices to the project maintainer</h2>
+
+===
+
+<h3>1. Do not, ever, expect for perfection </h3>
+
+===
+
+<p>Expecting perfection<br />
+means never releasing</p>
+
+===
+
+<h3>2. Focus on what your project does </h3>
+
+===
+
+<p>
+Don't start many things at once,<br />
+focus on your main track
+</p>
+
+===
+
+<h3>3. Small steps rather than big jumps</h3>
+
+===
+<p>
+Well, be agile.
+</p>
+
+===
+
+<p>
+And of course, take very seriously
+<br>
+your ongrowing community
+</p>
 
 ===
 
@@ -161,7 +283,7 @@ building a big private application.
 
 ===
 
-<h1>Marketing actions</h1>
+<h1>About the Perl ecosytem</h1>
 
 ===
 

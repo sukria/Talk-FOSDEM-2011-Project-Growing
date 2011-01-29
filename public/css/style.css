@@ -17,7 +17,7 @@ body {
     font-family: 'Linux Libertine', Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
     font-size: 48px;
     background-color: #fff;
-    background: #fff url("/images/bonzai-bg.jpg") no-repeat top right;
+    background: #fff url("/images/bonzai-bg.jpg") no-repeat bottom right;
     color: #363636;
 }
 
@@ -36,6 +36,10 @@ h1, h2, h3 {
 h1 { font-size: 82px; }
 h2 { font-size: 72px; }
 h3 { font-size: 60px; }
+
+h2.middle {
+	margin-top: 3em;
+}
 
 p, ul, li { 
 	margin: 0;
