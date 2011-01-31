@@ -37,7 +37,7 @@ h1 { font-size: 82px; }
 h2 { font-size: 72px; }
 h3 { font-size: 60px; }
 
-h2.middle {
+.middle {
 	margin-top: 3em;
 }
 

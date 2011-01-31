@@ -4,15 +4,6 @@
 
 ===
 
-
-<img src="/images/bonzai.png">
-
-<p id="title">
-<em>The art of growing a Perl project</em>
-</p>
-
-===
-
 <h2>Who</h2>
 
 <p>Alexis Sukrieh</p>
@@ -25,66 +16,14 @@
 
 <p><a href="http://twitter.com/sukria">http://twitter.com/sukria</a></p>
 
-===
-
-<h2>Main tracks</h2>
-
-<ol>
-
-<li>Programming vs Software  </li>
-
-</ol>
-
-===
-<h2>Main tracks</h2>
-
-<ol>
-
-<li>Programming vs Software  </li>
-
-<li>Community building </li>
-
-</ol>
-
-===
-<h2>Main tracks</h2>
-
-<ol>
-
-<li>Programming vs Software </li>
-
-<li>Community building</li>
-
-</ol>
-
-===
-<h2>Main tracks</h2>
-
-<ol>
-
-<li>Programming vs Software </li>
-
-<li>Community building </li>
-
-<li>About the Perl ecosystem </li>
-
-</ol>
 
 ===
 
-<h2>Main tracks</h2>
+<img src="/images/bonzai.png">
 
-<ol>
-
-<li>Programming vs Software  </li>
-
-<li>Community building </li>
-
-<li>About the Perl ecosystem </li>
-
-<li>Dancer, A real-life example </li>
-
-</ol>
+<p id="title">
+<em>The art of growing a Perl project</em>
+</p>
 
 ===
 
@@ -156,9 +95,14 @@ Software </h1>
 
 ===
 
+<img src="/images/rubixcube-practice.jpg" />
+
 	<p>practice, learn and try</p>
 
 ===
+
+<img src="/images/rubixcube-master.jpg">
+
 	<p>eventually, anyone can <br>
 	master a programming language</p>
 
@@ -207,6 +151,18 @@ Software </h1>
 
 ===
 
+<img src="/images/documentation.jpg" />
+
+<h2>Documentation</h2>
+
+===
+
+<img src="/images/marketing.jpg" />
+
+<h2>Marketing</h2>
+
+===
+
 <img src="/images/troll.jpg">
 
 <h2>Sometimes, even<br>
@@ -226,14 +182,18 @@ it's <em>multi-dimensional</em></p>
 
 ===
 
+<img src="/images/crowd.jpg">
+
 <p>You're not alone anymore</p>
 
 ===
 
+<img src="/images/taichi.jpg" />
+
 <p>
-Handling this flow and continuing 
+Handling this flow
 <br>
-to develop is difficult
+is difficult
 </p>
 
 ===
@@ -242,32 +202,37 @@ to develop is difficult
 
 ===
 
-<h3>1. Do not, ever, expect for perfection </h3>
+<h3>Do not expect for perfection </h3>
 
 ===
+
+<img src="/images/sagrada.jpg" />
 
 <p>Expecting perfection<br />
 means never releasing</p>
 
 ===
 
-<h3>2. Focus on what your project does </h3>
+<h3>Focus on what your project does </h3>
 
 ===
 
-<p>
-Don't start many things at once,<br />
+<img src="/images/focus.jpg" align="left" />
+
+<p class="middle">
+Don't start many things at once,
 focus on your main track
 </p>
 
 ===
 
-<h3>3. Small steps rather than big jumps</h3>
+<h3>Move forward slowly</h3>
 
 ===
-<p>
-Well, be agile.
-</p>
+
+<img src="/images/bigjump.jpg" />
+
+<p>big jumps are risky</p>
 
 ===
 
@@ -283,10 +248,203 @@ your ongrowing community
 
 ===
 
-<h1>About the Perl ecosytem</h1>
+<p>Everything starts with your code</p>
+
+===
+
+<img src="/images/github.png" />
+
+<h2>GitHub</h2>
+
+===
+
+It has to be on GitHub, period :)
+
+===
+
+Watchers
+
+===
+
+Forks
+
+===
+
+Pull Requests
+
+===
+
+Web interface over Git
+
+===
+
+It's a <em>major</em> helper
+
+===
+
+<h1>Test::More</h1>
+
+<p>
+You want to write a good test suite
+</p>
+
+===
+
+<p>More tests, less bugs.</p>
+
+<p>
+It's as simple as that.
+</p>
+
+===
+
+Code quality directly <br />depends on your test-suite
+
+===
+<h2>Devel::Cover</h2>
+
+Aim a very high code coverage
+
+===
+
+<p>
+<em>« If it's not covered, it's broken. Every. Single. Time. »</em>
+</p>
+
+<p>
+-- <a href="http://blogs.perl.org/users/ovid/2010/03/100-test-coverage.html">Ovid</a>
+</p>
+
+===
+
+<h1>Release</h1>
+
+<p>
+Once you feel good with your code,<br>
+it's time to release
+</p>
+
+===
+
+Release Early.
+
+===
+
+Release Early, Release often.
+
+===
+
+<p>
+<em>Release early. Release often. And listen to your customers.</em>
+</p>
+
+<p>
+-- <a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html">Linus Torvalds</a>
+</p>
+
+===
+
+The more you listen to your users,
+the better your software will be.
+
+===
+
+Software is made for users, <br/>
+not the opposite.
+
+===
+
+<h1>Users</h1>
+
+<p>
+First of all, thank them.
+</p>
+
+===
+
+<p>Take seriously any kind <br/>
+of remark they can make</p>
+
+===
+
+Maybe they're facing a <br/>
+situation you didn't expect
+
+===
+
+Or maybe, it's just<br>
+your crappy code ;)
+
+===
+
+Any bug report is a bit of love <br>
+for your project, remember that.
+
+===
+
+<h1>Contributors</h1>
+
+===
+
+<p>
+Contributors are super-users
+</p>
+
+===
+
+<p>
+Not only they've used your software<br>
+but they've started working on it.
+</p>
+
+===
+
+They are your best allies. <br>
+Thank them twice, and listen to them.
+
+===
+
+<h2>Egalitarianism</h2>
+
+===
+
+<h2>Meritocracy</h2>
+
+===
+
+<p>Eventually, <br/>
+some contributors will rise.</p>
+
+===
+
+They are regular helpers,<br>
+and well-skilled.
+
+===
+
+Reward them with a commit-bit<br>
+to your repo.
+
+===
+
+Egalitarianism, again.
+
+===
+
+Don't fear the project<br>
+to take its own life.
+
+===
+
+<p>
+Keep your vision in mind
+</p>
+
+===
+
+But let the project evolves
 
 ===
 
 <h1>Dancer, a real-life example</h1>
 
-===
