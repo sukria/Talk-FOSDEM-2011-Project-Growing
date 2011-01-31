@@ -51,7 +51,7 @@
 
 ===
 
-<h2>The best reward</h2>
+<h2>Useful</h2>
 
 <p>People will use your software</p>
 
@@ -64,7 +64,15 @@ make it better</p>
 
 ===
 
-<h2>Wait, <em>Software</em>, we said.</h2>
+<h2>Upgrade yourself</h2>
+
+<p>
+You'll become better at writing software
+</p>
+
+===
+
+<p>Wait, <em>Software</em>, we said.</p>
 
 ===
 
@@ -112,7 +120,6 @@ Software </h1>
 ===
 
 <h1>Software Development</h1>
-
 
 ===
 
@@ -165,8 +172,9 @@ Software </h1>
 
 <img src="/images/troll.jpg">
 
-<h2>Sometimes, even<br>
-some trolls ;)</h2>
+<h2>Trolls</h2>
+
+<p>It's a good sign ;)</p>
 
 ===
 
@@ -178,7 +186,7 @@ you don't controll
 ===
 
 <p>Well, it's hard because<br />
-it's <em>multi-dimensional</em></p>
+it's <em><b>multi-dimensional</b></em></p>
 
 ===
 
@@ -199,6 +207,10 @@ is difficult
 ===
 
 <h2>Advices to the project maintainer</h2>
+
+<p>
+(most of them kindly stolen from <a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/">The Cathedral and the Bazaar</a> by Eric Steven Raymond, 1997).
+</P>
 
 ===
 
@@ -226,6 +238,12 @@ focus on your main track
 
 ===
 
+<h3>Don't fear the rewrite</h3>
+
+« Good programmers know what to write. Great ones know what to rewrite (and reuse). »
+
+===
+
 <h3>Move forward slowly</h3>
 
 ===
@@ -236,11 +254,23 @@ focus on your main track
 
 ===
 
+<h3>Welcome issues</h3>
+
+If you have the right attitude, interesting problems will find you.
+
+===
+
 <p>
 And of course, take very seriously
 <br>
 your ongrowing community
 </p>
+
+===
+
+Treating your users as co-developers is your least-hassle route to rapid
+code improvement and effective debugging.
+
 
 ===
 
@@ -367,15 +397,22 @@ of remark they can make</p>
 
 ===
 
-Maybe they're facing a <br/>
-situation you didn't expect
+Remember that every user is a potential developer
 
 ===
 
-Or maybe, it's just<br>
-your crappy code ;)
+Linus's Law:
+
+<p>
+<em>
+Given a large enough beta-tester and co-developer base, almost every problem
+will be characterized quickly and the fix obvious to someone.
+</em>
+</p>
 
 ===
+
+<h2>Be happy with bug reports!</h2>
 
 Any bug report is a bit of love <br>
 for your project, remember that.
@@ -404,30 +441,8 @@ Thank them twice, and listen to them.
 
 ===
 
-<h2>Egalitarianism</h2>
-
-===
-
-<h2>Meritocracy</h2>
-
-===
-
-<p>Eventually, <br/>
-some contributors will rise.</p>
-
-===
-
-They are regular helpers,<br>
-and well-skilled.
-
-===
-
-Reward them with a commit-bit<br>
-to your repo.
-
-===
-
-Egalitarianism, again.
+If you treat your users as if they're your most valuable resource,
+they will respond by becoming your most valuable resource
 
 ===
 
@@ -436,13 +451,25 @@ to take its own life.
 
 ===
 
+<h2>Clear Target</h2>
+
 <p>
 Keep your vision in mind
 </p>
 
 ===
 
+<h2>Open-minded</h2>
+
 But let the project evolves
+
+===
+
+<h2>Listen, listen and listen</h2>
+
+The next best thing to having good ideas is recognizing good ideas from
+your users. Sometimes the latter is better.
+
 
 ===
 
