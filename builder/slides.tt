@@ -397,9 +397,9 @@ of remark they can make</p>
 
 ===
 
-<img src="/images/tortue.png" />
+<img src="/images/tortue.png" align="left" />
 
-<h3>Every user is a potential developer</h3>
+<p class="middle">Every user is a potential developer</p>
 
 ===
 
@@ -425,8 +425,10 @@ for your project, remember that.
 
 ===
 
+<img src="/images/xmen.jpg" />
+
 <p>
-Contributors are super-users
+They are super-users
 </p>
 
 ===
@@ -443,8 +445,8 @@ Thank them twice, and listen to them.
 
 ===
 
-If you treat your users as if they're your most valuable resource,
-they will respond by becoming your most valuable resource
+<em>If you treat your users as if they're your most valuable resource,
+they will respond by becoming your most valuable resource</em>
 
 ===
 
@@ -453,27 +455,97 @@ to take its own life.
 
 ===
 
-<h2>Clear Target</h2>
-
-<p>
-Keep your vision in mind
-</p>
-
-===
-
 <h2>Open-minded</h2>
 
-But let the project evolves
+let the project evolves
 
 ===
 
 <h2>Listen, listen and listen</h2>
 
-The next best thing to having good ideas is recognizing good ideas from
+<em>The next best thing to having good ideas is recognizing good ideas from
 your users. Sometimes the latter is better.
-
+</em>
 
 ===
 
-<h1>Dancer, a real-life example</h1>
+Letting the project evolves with community-driven decisions is the best thing
+you can hope for.
+
+===
+
+<h1>Marketing Perl</h1>
+
+===
+
+It is important.
+
+===
+
+As much as the code itself
+
+===
+
+Really.
+
+===
+
+Raise your voice!
+
+===
+
+<img src="/images/yell.jpg" />
+
+<h2>
+But don't do it wrong.
+</h2>
+
+===
+
+
+
+<h2>Website</h2>
+
+A website for your project is a must-have
+
+===
+
+<a href="http://perldancer.org">http://perldancer.org</a>
+
+<p>
+
+With a real domain name!
+</p>
+
+===
+
+<h2>Blog entries</h2>
+
+<ul>
+<li>Planet Perl Ironman</li>
+<li>blogs.perl.org</li>
+</ul>
+
+===
+
+<h2>Twitter</h2>
+
+Use the hashtag <a href="http://search.twitter.com/?q=%23perl">#perl</a>, 
+promote frequently your project
+
+===
+
+<h2><a href="http://twitter.com/PerlDancer">@PerlDancer</a></h2>
+
+
+Eventually create an account for the project
+
+===
+
+<h2>Mailing list</h2>
+
+Create a mailing list for your users.
+
+===
+
 
