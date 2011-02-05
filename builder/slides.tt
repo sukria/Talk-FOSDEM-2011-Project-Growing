@@ -312,7 +312,47 @@ It's a <em>major</em> helper
 
 ===
 
-<h1>Test::More</h1>
+<h2>Modularity</h2>
+
+===
+
+Modular Design
+
+===
+
+If possible, provide support for plugins
+
+===
+
+Make it easy to extend your code with third-party modules
+
+<p>
+(Moose::Role, Role::Simple)
+</p>
+
+===
+
+Your code will be much better...
+
+===
+
+And other developers will build their own extensions
+
+===
+
+And publish them on CPAN as well
+
+===
+
+Think about your project's ecosystem
+
+===
+
+<h1>Code Quality</h1>
+
+===
+
+<h2>Testing</h2>
 
 <p>
 You want to write a good test suite
@@ -381,6 +421,10 @@ the better your software.
 
 Software is made for users, <br/>
 not the opposite.
+
+===
+
+Afterall you published the thing, right?
 
 ===
 
@@ -474,7 +518,7 @@ you can hope for.
 
 ===
 
-<h1>Marketing Perl</h1>
+<h1>Marketing</h1>
 
 ===
 
@@ -501,8 +545,6 @@ But don't do it wrong.
 </h2>
 
 ===
-
-
 
 <h2>Website</h2>
 
@@ -548,4 +590,41 @@ Create a mailing list for your users.
 
 ===
 
+Be responsive
+
+===
+
+<h2>Conclusion</h2>
+
+===
+
+Don't fear to release your code
+
+===
+
+Be aware of what writing software means
+
+===
+
+Handle your community with care
+
+===
+
+And your project should grow almost by itself
+
+===
+
+The whole experience is very valuable
+
+===
+
+So.
+
+===
+
+GO RELEASE! :-)
+
+===
+
+Thanks!
 
