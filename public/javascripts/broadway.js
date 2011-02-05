@@ -42,6 +42,19 @@ function broadway_last() {
     });
 }
 
+function broadway_preview() {
+    $.ajax({
+        type: "POST",
+        url: "/preview",
+        cache: false,
+		error: function(failure) {
+			alert("unable to receive content");
+		},
+        success: function(html) {
+            $('#preview').html(html);
+        }
+    });
+}
 
 function broadway_refresh() {
     $.ajax({
@@ -65,6 +78,8 @@ function broadway_refresh() {
 
             // syntax highlighting
             prettyPrint();
+
+            broadway_preview();
 
             // update the slide number (it's in the layout)
 			$.ajax({

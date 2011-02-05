@@ -17,6 +17,7 @@
 </head>
 
 <body onload="prettyPrint();">
+
     <div id="wrapper">
         <div id="content_wrapper">
         <% content %>
@@ -30,12 +31,27 @@
         <span id="slide_number" style="position: absolute; right: 2px;"></span>
     </div>
 
+
 <% if is_multi_touch %>
+
+<div id="preview" style="border: 2px solid #777; background-color: #ddd; color: #444;">
+</div>
+
+<script>
+broadway_preview();
+</script>
+
+
 <div id="remote">
-<div style="position: absolute; width: 600px; left: 0; bottom: 0; font-size: 60px; background-color: #eee;">
+<div style="width: 800px; text-align: center; position: absolute; left: 0; bottom: 0; background-color: #eee;">
+<h2>
 <a href="#" style="color: #000; " onclick="broadway_prev();broadway_refresh(); return(false);">PREV</a>
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 <a href="#" style="color: #000;" onclick="broadway_next(); broadway_refresh();return(false);">NEXT</a>
+</h2>
 </div>
 </div>
 <% end %>
