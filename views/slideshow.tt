@@ -21,7 +21,6 @@ document.addEventListener('touchmove', function(event) {
 }, false);
 */
 
-
 <% else %>
 
 <% if settings.broadway.remote %>
@@ -48,5 +47,4 @@ window.setInterval(function() {
 
 <div id="slide">
 </div>
-
 

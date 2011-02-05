@@ -48,7 +48,8 @@ function broadway_preview() {
         url: "/preview",
         cache: false,
 		error: function(failure) {
-			alert("unable to receive content");
+		//	alert("unable to receive content");
+            return 1;
 		},
         success: function(html) {
             $('#preview').html(html);
