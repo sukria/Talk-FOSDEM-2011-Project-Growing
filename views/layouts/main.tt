@@ -54,6 +54,43 @@ broadway_preview();
 </h2>
 </div>
 </div>
+<% else %>
+<div style="display: none">
+
+<img src="/images/backward.jpg" >
+<img src="/images/bonzai.png" >
+<img src="/images/crowd.jpg" >
+<img src="/images/github.png" >
+<img src="/images/perldancer-bg.jpg" >
+<img src="/images/rubixcube-practice.jpg" >
+<img src="/images/troll.jpg" >
+<img src="/images/bigjump.jpg" >
+<img src="/images/bug.jpg" >
+<img src="/images/documentation.jpg" >
+<img src="/images/goban.jpg" >
+<img src="/images/perldancer.jpg" >
+<img src="/images/sagrada.jpg" >
+<img src="/images/users.jpg" >
+<img src="/images/bonzai-bg.jpg" >
+<img src="/images/clock.jpg" >
+<img src="/images/ecosystem.jpg" >
+<img src="/images/lego_usb.jpg" >
+<img src="/images/rubixcube.jpg" >
+<img src="/images/taichi.jpg" >
+<img src="/images/xmen.jpg" >
+<img src="/images/bonzai.jpg" >
+<img src="/images/contributors.jpg" >
+<img src="/images/perldancer.png" >
+<img src="/images/mongueurs.png" >
+<img src="/images/weborama.gif" >
+<img src="/images/commbreak.jpg" >
+<img src="/images/focus.jpg" >
+<img src="/images/marketing.jpg" >
+<img src="/images/rubixcube-master.jpg" >
+<img src="/images/tortue.png" >
+<img src="/images/yell.jpg" >
+</div>
+
 <% end %>
 
 </body>

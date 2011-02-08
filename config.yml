@@ -25,9 +25,9 @@ broadway:
   date: "Feb. 6, 2011"
   event: "FOSDEM 2011"
   author: "Alexis Sukrieh"
-  slides: 111
+  slides: 115
   refresh_rate: 300
-  remote: 1
+  remote: 0
 
 template: "template_toolkit"
 engines:

@@ -4,24 +4,55 @@
 
 ===
 
-<h2>Who</h2>
+<h2>FOSDEM 2011, Perl devroom</h2>
 
-<p>Alexis Sukrieh</p>
-
-<p><a href="http://perldancer.org">Dancer</a>'s Lead developper</p>
-
-<p>Software architect at <a href="http://weborama.com/">Weborama</a></p>
-
-<p><a href="http://mongueurs.net">Mongueur</a> de Perl</p>
-
-<p><a href="http://twitter.com/sukria">http://twitter.com/sukria</a></p>
-
+<p>
+Alexis Sukrieh
+<br>
+<a href="http://twitter.com/sukria">@sukria</a> 
+</p>
 
 ===
 
-<img src="/images/bonzai.png">
+<img src="/images/commbreak.jpg">
 
-<p id="title">
+<h3>Commercials First!</h3>
+
+===
+
+<img src="/images/mongueurs.png" />
+
+<p>
+<a href="http://www.mongueurs.net/">Les Mongueurs de Perl</a> 
+</p>
+
+<p>
+<a href="http://journeesperl.fr/fpw2011/">The French Perl Workshop 2011</a>
+</p>
+
+===
+
+<img src="/images/weborama.gif" />
+
+<h3>Weborama</h3>
+
+Hiring! <a href="mailto:dev-jobs@weborama.com">dev-jobs@weborama.com</a> 
+
+===
+<img src="/images/perldancer.png"/>
+
+<h3><a href="http://perldancer.org">http://perldancer.org</a></h3>
+
+Effortless micro-framework for webapps
+===
+
+OK, now we start! Thanks ;)
+
+===
+
+<img align="left" src="/images/bonzai.jpg">
+
+<p class="middle">
 <em>The art of growing a Perl project</em>
 </p>
 
@@ -268,9 +299,9 @@ your ongrowing community
 
 ===
 
-Treating your users as co-developers is your least-hassle route to rapid
+<em>Treating your users as co-developers is your least-hassle route to rapid
 code improvement and effective debugging.
-
+</em>
 
 ===
 
@@ -312,22 +343,20 @@ It's a <em>major</em> helper
 
 ===
 
+<img src="/images/lego_usb.jpg" >
+
 <h2>Modularity</h2>
 
 ===
 
-Modular Design
-
-===
-
-If possible, provide support for plugins
+Respect the <a href="http://en.wikipedia.org/wiki/Law_of_Demeter">Demeter Law</a> 
 
 ===
 
 Make it easy to extend your code with third-party modules
 
 <p>
-(Moose::Role, Role::Simple)
+(Moose::Role, Role::Basic)
 </p>
 
 ===
@@ -344,9 +373,16 @@ And publish them on CPAN as well
 
 ===
 
-Think about your project's ecosystem
+<img src="/images/ecosystem.jpg" />
+
+<p>
+Think Ecosystem
+</p>
 
 ===
+
+<img src="/images/clock.jpg" />
+
 
 <h1>Code Quality</h1>
 
@@ -598,15 +634,15 @@ Be responsive
 
 ===
 
-Don't fear to release your code
+1. Don't fear to release your code
 
 ===
 
-Be aware of what writing software means
+2. Be aware of what writing software means
 
 ===
 
-Handle your community with care
+3. Handle your community with care
 
 ===
 
